@@ -1,5 +1,5 @@
 import { useAuth } from '../hooks/useAuth';
-import { FaUser, FaEnvelope, FaIdCard, FaShieldAlt, FaCalendarAlt } from 'react-icons/fa';
+import { FaUser, FaEnvelope, FaIdCard, FaShieldAlt } from 'react-icons/fa';
 
 export function Account() {
   const { user } = useAuth();

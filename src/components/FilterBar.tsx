@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaFilter, FaTimes } from 'react-icons/fa';
+import { FaFilter } from 'react-icons/fa';
 
 interface FilterBarProps {
   filters: {

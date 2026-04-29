@@ -98,7 +98,7 @@ export function Profiles() {
       if (filters.min_age) params.min_age = filters.min_age;
       if (filters.max_age) params.max_age = filters.max_age;
 
-      const token = localStorage.getItem('access_token');
+    //   const token = localStorage.getItem('access_token');
       const queryParams = new URLSearchParams(params).toString();
       const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
       const url = `${API_URL}/api/profiles/export?${queryParams}`;

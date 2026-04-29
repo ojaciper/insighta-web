@@ -9,7 +9,7 @@ import toast from 'react-hot-toast';
 import { ThreeDots } from 'react-loader-spinner';
 
 export function Search() {
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<Profile[]>([]);
   const [loading, setLoading] = useState(false);

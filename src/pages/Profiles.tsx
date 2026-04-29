@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { FaDownload } from 'react-icons/fa';
 import { apiClient } from '../services/api';
 import { Profile, Filters } from '../types';
@@ -10,7 +10,7 @@ import toast from 'react-hot-toast';
 import { ThreeDots } from 'react-loader-spinner';
 
 export function Profiles() {
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState<Filters>({

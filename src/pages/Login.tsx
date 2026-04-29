@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { useAuth } from '../hooks/useAuth';
-import { apiClient } from '../services/api';
+// import { apiClient } from '../services/api';
 import toast from 'react-hot-toast';
 
 export function Login() {

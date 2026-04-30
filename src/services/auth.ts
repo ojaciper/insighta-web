@@ -10,7 +10,7 @@ export const authService = {
 
   getCurrentUser: async (): Promise<User | null> => {
     try {
-      const response = await apiClient.get<{ status: string; user: User }>('/auth/me');
+      const response = await apiClient.get<{ status: string; user: User }>('/api/users/me');
       return response.user;
     } catch (error) {
       return null;

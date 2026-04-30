@@ -67,7 +67,7 @@ export function Dashboard() {
 
   const fetchStats = async () => {
     try {
-      const response = await apiClient.get<DemographicsStats>('/api/profiles/stats/demographics');
+      const response = await apiClient.get<DemographicsStats>('/api/profiles/demographics');
       setStats(response);
     } catch (error) {
       console.error('Failed to fetch stats:', error);
